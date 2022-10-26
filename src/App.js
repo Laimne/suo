@@ -6,6 +6,7 @@ import List from "./Components/List";
 import Modal from "./Components/Modal";
 
 
+
 function App() {
   const [table, setTable] = useState([]);
   const [lastUpdate, setLastUpdate] = useState(Date.now());
